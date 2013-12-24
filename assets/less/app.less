@@ -81,10 +81,123 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* ==========================================================================
    Custom
    ========================================================================== */
-.bluewrap { background-color: #0892d0; }
+
+.wrap {
+   a {
+      color: @link-color;
+     text-decoration: none;
+     border-bottom: 1px dotted @link-color;
+
+     &:hover,
+     &:focus {
+       color: @link-hover-color;
+       text-decoration: none;
+       border-bottom: 1px solid @link-hover-color;
+     }
+
+     &:focus {
+       .tab-focus();
+     }
+   }
+}
+
+.bluewrap {
+   background-color: #0892d0;
+   color: #fff;
+   a {
+     color: #fff;
+     text-decoration: none;
+     border-bottom: 1px dotted #fff;
+
+     &:hover,
+     &:focus {
+       color: #fff;
+       text-decoration: none;
+       border-bottom: 1px solid #fff;
+     }
+
+     &:focus {
+       .tab-focus();
+      }
+   }
+}
+
+.ue-header {
+   .btn {
+      margin-top: 22px;
+      font-size: 24px;
+      padding: 17px 40px;
+      color: #fff;
+      border-color: #fff;
+      background-color: transparent;
+      border-bottom: 1px solid #fff;
+      margin-bottom: 22px;
+
+      &:hover {
+         background-color: #fff;
+         color: #0892d0;
+
+      }
+   }
+}
+
+.spacer {
+   margin: 25px 0px;
+}
+
+.section-header {
+   text-align: center;
+}
+
+.med-font {
+   font-family: "colaborate-mediumregular", @font-family-base;
+}
 
 #homepage {
    .navbar { margin-bottom: 0px; }
+}
+
+.feat-imgs {
+   height: 172px;
+}
+
+.feat-uni-compat:extend(.feat-imgs) {
+   background:url(../img/uni-compat.png) center center no-repeat;
+}
+
+.feat-easy-imp:extend(.feat-imgs) {
+   background:url(../img/easy-imp.png) center center no-repeat;
+}
+
+.feat-extend:extend(.feat-imgs) {
+   background:url(../img/extend.png) center center no-repeat;
+}
+
+.feat-open-source:extend(.feat-imgs) {
+   background:url(../img/open-source.png) center center no-repeat;
+}
+
+.feat-headers:extend(.med-font) {
+   text-align: center;
+   font-size: 24px;
+   margin-bottom: 4px;
+}
+
+.feat-desc {
+   text-align: center;
+   font-size: 16px;
+}
+
+.cont-teamspeak:extend(.feat-imgs) {
+   background:url(../img/teamspeak.png) center center no-repeat;
+}
+
+.cont-irc:extend(.feat-imgs) {
+   background:url(../img/irc.png) center center no-repeat;
+}
+
+.cont-forums:extend(.feat-imgs) {
+   background:url(../img/forums.png) center center no-repeat;
 }
 
 
