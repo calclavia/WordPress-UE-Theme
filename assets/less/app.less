@@ -90,36 +90,36 @@
 
          &:hover,
          &:focus {
-          color: @link-hover-color;
-          text-decoration: none;
-          border-bottom: 1px solid @link-hover-color;
-       }
+           color: @link-hover-color;
+           text-decoration: none;
+           border-bottom: 1px solid @link-hover-color;
+        }
 
-       &:focus {
-          .tab-focus();
-       }
-    }
- }
+        &:focus {
+           .tab-focus();
+        }
+     }
+  }
 
- .bluewrap {
+  .bluewrap {
    background-color: #0892d0;
    color: #fff;
    a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+
+    &:hover,
+    &:focus {
      color: #fff;
      text-decoration: none;
-     border-bottom: 1px dotted #fff;
+     border-bottom: 1px solid #fff;
+  }
 
-     &:hover,
-     &:focus {
-       color: #fff;
-       text-decoration: none;
-       border-bottom: 1px solid #fff;
-    }
-
-    &:focus {
-       .tab-focus();
-    }
- }
+  &:focus {
+     .tab-focus();
+  }
+}
 }
 
 .ue-header {
@@ -200,12 +200,51 @@
    background:url(../img/forums.png) center center no-repeat;
 }
 
+.feat-mod-img,.feat-mod-text {
+   margin-top: 25px;
+   img {
+      width: 100%;
+      min-width: 285px;
+      margin: 0px auto;
+   }
+   button {
+      float: right;
+   }
+}
+
+.feat-mod-left,.feat-mod-right {
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+.feat-builds {
+   margin-bottom: 5px;
+
+      .section-header {
+         margin-bottom: 20px;
+      }
+
+      img {
+         border: 3px solid #000;
+         width: 100%;
+         margin-bottom: 25px;
+      }
+}
+
+.no-underline {
+   a {
+      border-bottom: none;
+      &:hover {
+         border-bottom: none;
+      }
+   }
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-   @media (min-width: @screen-sm-min) { }
+   @media (min-width: @screen-sm-min) {  }
 
-   @media (min-width: @screen-md-min) { }
+   @media (min-width: @screen-md-min) {  }
 
-   @media (min-width: @screen-lg-min) { }
+   @media (min-width: @screen-lg-min) {  }
