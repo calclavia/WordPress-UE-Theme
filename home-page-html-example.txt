@@ -1,0 +1,146 @@
+<div class="bluewrap ue-header">
+	<div class="container" style="text-align: center;">
+		<div class="row">
+			<h1><span class="med-font" style="font-size: 72px;">Universal Electricity 3.0</span><br />
+				Minecraft Unified Electricity Library</h1>
+				<a class="btn btn-default btn-lg" href="download"><i class="glyphicon glyphicon-download-alt"></i>&nbsp;&nbsp;Download</a>
+				<p><a href="https://github.com/Universal-Electricity/">GitHub Project</a>   ·   Old Versions   ·   Created by <a href="http://calclavia.com/">Calclavia</a> and Aidancbrady   ·   Site design by Tyrantelf</p>
+				<div class="spacer"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container greybg">
+		<div class="row">
+			<div id="carousel-mods" class="carousel slide" data-ride="carousel">
+				<!-- Wrapper for slides -->
+				<div class="col-md-1 col-xs-1 feat-mod-left">
+					<div class="left" href="#carousel-mods" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</div>
+				</div>
+				<div class="col-md-10 col-xs-10">
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="col-md-4 col-xs-10 feat-mod-img">
+								<img src="http://localhost/ue/wp-content/themes/universal-electricity-website-theme/assets/img/mods/minechem.png">
+							</div>
+							<div class="col-md-8 feat-mod-text hidden-sm hidden-xs">
+								<p>
+									With this mod brought to us by Pixlepix, you can add chemistry to your minecraft world. Craft machines that decompose minecraft items into elements and molecules. Use the microscope to discover new molecular structures. Operate the Chemical Synthesis Machine to turn elements back into items. Turn your coal, sugar or even spider eyes into diamonds!
+								</p>
+								<p>
+									<button type="button" class="btn btn-info">Visit the Minechem site</button>	
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-4 col-xs-10 feat-mod-img">
+								<img src="http://localhost/ue/wp-content/themes/universal-electricity-website-theme/assets/img/mods/minechem.png">
+							</div>
+							<div class="col-md-8 feat-mod-text hidden-sm hidden-xs">
+								<p>
+									With this mod brought to us by Pixlepix, you can add chemistry to your minecraft world. Craft machines that decompose minecraft items into elements and molecules. Use the microscope to discover new molecular structures. Operate the Chemical Synthesis Machine to turn elements back into items. Turn your coal, sugar or even spider eyes into diamonds!
+								</p>
+								<p>
+									<button type="button" class="btn btn-info">Visit the Minechem site</button>	
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1 col-xs-1 feat-mod-right">
+					<div class="right" href="#carousel-mods" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bluewrap">
+		<div class="container">
+			<div class="row section-header">
+				<div class="col-md-12"><h1 class="med-font">Why Us?</h1></div>
+				<h3>Out of all the electricity APIs, what makes us different?  Here’s what.</h3>
+			</div>
+
+			<div class="col-md-12">
+				<div class="col-md-3">
+					<div class="feat-uni-compat"></div>
+					<div class="feat-headers">Universally Compatible</div>
+					<div class="feat-desc">Invoke and forget.  Don’t worry about making it work with other systems, that’s our job.</div>
+					<div class="spacer"></div>
+				</div>
+				<div class="col-md-3">
+					<div class="feat-easy-imp"></div>
+					<div class="feat-headers">Easy Implementation</div>
+					<div class="feat-desc">Implementing is as easy as adding a single line of code.  No more searching for the right functions.</div>
+					<div class="spacer"></div>
+				</div>
+				<div class="col-md-3">
+					<div class="feat-extend"></div>
+					<div class="feat-headers">Flexible & Extensible</div>
+					<div class=" feat-desc">Want more than just an energy network? Extend it and let your own advanced version emerge.</div>
+					<div class="spacer"></div>
+				</div>
+				<div class="col-md-3">
+					<div class="feat-open-source"></div>
+					<div class="feat-headers">Open Source</div>
+					<div class="feat-desc">Wanting a new feature, or just to see how the system works?  All our code is avaliable on GitHub.</div>
+					<div class="spacer"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container greybg">
+		<div id="row">
+			<div class="col-md-12 feat-builds">
+				<div class="section-header"><h1 class="med-font">Featured Builds</h1></div>
+				<div class="col-xs-6 col-md-3"><img src="http://localhost/ue/wp-content/themes/universal-electricity-website-theme/assets/img/mods/minechem.png"></div>
+				<div class="col-xs-6 col-md-3"><img src="http://localhost/ue/wp-content/themes/universal-electricity-website-theme/assets/img/mods/minechem.png"></div>
+				<div class="col-xs-6 col-md-3"><img src="http://localhost/ue/wp-content/themes/universal-electricity-website-theme/assets/img/mods/minechem.png"></div>
+				<div class="col-xs-6 col-md-3"><img src="http://localhost/ue/wp-content/themes/universal-electricity-website-theme/assets/img/mods/minechem.png"></div>
+				<div class="col-xs-6 col-md-3"><img src="http://localhost/ue/wp-content/themes/universal-electricity-website-theme/assets/img/mods/minechem.png"></div>
+				<div class="col-xs-6 col-md-3"><img src="http://localhost/ue/wp-content/themes/universal-electricity-website-theme/assets/img/mods/minechem.png"></div>
+				<div class="col-xs-6 col-md-3"><img src="http://localhost/ue/wp-content/themes/universal-electricity-website-theme/assets/img/mods/minechem.png"></div>
+				<div class="col-xs-6 col-md-3"><img src="http://localhost/ue/wp-content/themes/universal-electricity-website-theme/assets/img/mods/minechem.png"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 col-md-offset-5"><button type="button" class="btn btn-blk btn-lg btn-block">Submit your build</button></div>
+		</div>
+<div class="spacer"></div>
+	</div>
+<div class="bluewrap">
+<div class="container">
+		<div class="row section-header">
+			<div class="col-md-12">
+				<h1 class="med-font">Get in Touch</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<div class="col-md-4">
+					<div class="cont-teamspeak"></div>
+					<div class="feat-headers">Teamspeak</div>
+					<div class="feat-desc">teamspeak.feed-the-beast.com<br />Password: mcepoch1<br />Channel: Universal Electricity</div>
+				</div>
+				<div class="col-md-4">
+					<div class="cont-irc"></div>
+					<div class="feat-headers">IRC</div>
+					<div class="feat-desc">Come talk to the developers.<br />#universalelectricity on<br />irc.esper.net:5555</div>
+				</div>
+				<div class="col-md-4">
+					<div class="cont-forums"></div>
+					<div class="feat-headers">Forums</div>
+					<div class="feat-desc">Discuss the latest developments<br />in Universal Electricity.<br />universalelectricty.com/forums</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+		<div class="spacer"></div>
+</div>
+</div>
