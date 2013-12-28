@@ -120,3 +120,8 @@ p
 .left {
     float: right;
 }
+
+.container
+{
+    margin-bottom: 20px;
+}
