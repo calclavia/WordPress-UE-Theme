@@ -125,3 +125,10 @@ p
 {
     margin-bottom: 20px;
 }
+
+.widget_meta ul li
+{
+    display: inline;
+    padding: 7px;
+    margin-right: 4px;
+}
