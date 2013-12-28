@@ -1,0 +1,117 @@
+/**
+ * Custom CSS added on top of Roots.io
+ */
+
+.bluewrap {
+    background-color: #0892d0;
+    color: #fff;
+}
+.bluewrap a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+}
+.bluewrap a:hover, .bluewrap a:focus {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+.bluewrap a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.ue-header .btn {
+    margin-top: 22px;
+    font-size: 24px;
+    padding: 17px 40px;
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 22px;
+}
+.ue-header .btn:hover {
+    background-color: #fff;
+    color: #0892d0;
+}
+.spacer {
+    margin: 25px 0px;
+}
+.section-header {
+    text-align: center;
+}
+.med-font, .feat-headers {
+    font-family: "colaborate-mediumregular", "colaborate-regularregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#homepage .navbar {
+    margin-bottom: 0px;
+}
+.feat-imgs, .feat-uni-compat, .feat-easy-imp, .feat-extend, .feat-open-source, .cont-teamspeak, .cont-irc, .cont-forums {
+    height: 172px;
+}
+.feat-uni-compat {
+    background: url(../img/uni-compat.png) center center no-repeat;
+}
+.feat-easy-imp {
+    background: url(../img/easy-imp.png) center center no-repeat;
+}
+.feat-extend {
+    background: url(../img/extend.png) center center no-repeat;
+}
+.feat-open-source {
+    background: url(../img/open-source.png) center center no-repeat;
+}
+.feat-headers {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+.feat-desc {
+    text-align: center;
+    font-size: 16px;
+}
+.cont-teamspeak {
+    background: url(../img/teamspeak.png) center center no-repeat;
+}
+.cont-irc {
+    background: url(../img/irc.png) center center no-repeat;
+}
+.cont-forums {
+    background: url(../img/forums.png) center center no-repeat;
+}
+.feat-mod-img, .feat-mod-text {
+    margin-top: 25px;
+}
+.feat-mod-img img, .feat-mod-text img {
+    width: 100%;
+    min-width: 285px;
+    margin: 0px auto;
+}
+.feat-mod-img button, .feat-mod-text button {
+    float: right;
+}
+.feat-mod-left, .feat-mod-right {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.feat-builds {
+    margin-bottom: 5px;
+}
+.feat-builds .section-header {
+    margin-bottom: 20px;
+}
+.feat-builds img {
+    border: 3px solid #000;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.no-underline a {
+    border-bottom: none;
+}
+.no-underline a:hover {
+    border-bottom: none;
+}
+.left {
+    float: right;
+}
