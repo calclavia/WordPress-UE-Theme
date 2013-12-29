@@ -6,7 +6,7 @@
                 <br />
                 <?php bloginfo("description") ?>
             </h1>
-            <a class="btn btn-default btn-lg" href="download"><i class="glyphicon glyphicon-download-alt"></i>&nbsp;&nbsp;Download</a>
+            <a class="btn btn-default btn-lg" href="downloads"><i class="glyphicon glyphicon-download-alt"></i>&nbsp;&nbsp;Download</a>
             <div class="spacer"></div>
         </div>
     </div>
