@@ -36,3 +36,20 @@ function ue_primary_color()
 }
 
 add_action('wp_head', 'ue_primary_color');
+
+/**
+ * Widget Areas
+ */
+function ue_widgets_init()
+{
+	register_sidebar( array(
+		'name' => 'Front Page Heading',
+		'id' => 'front_page_heading',
+		'before_widget' => '<div>',
+		'after_widget' => '</div>',
+		'before_title' => '<h2 class="rounded">',
+		'after_title' => '</h2>',
+	) );
+}
+
+add_action('widgets_init', 'ue_widgets_init' );
