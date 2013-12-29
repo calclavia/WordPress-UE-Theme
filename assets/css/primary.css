@@ -138,3 +138,9 @@ p
     color: #000 !important;
     text-align: center;
 }
+
+.mod-showcase .thumbnail img
+{
+    width: 400px;
+    height: 226px;
+}
