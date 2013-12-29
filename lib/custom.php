@@ -47,8 +47,8 @@ function ue_widgets_init()
 		'id' => 'front_page_heading',
 		'before_widget' => '<div>',
 		'after_widget' => '</div>',
-		'before_title' => '<h2 class="rounded">',
-		'after_title' => '</h2>',
+		'before_title' => '',
+		'after_title' => '',
 	) );
 }
 

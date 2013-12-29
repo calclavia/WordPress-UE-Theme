@@ -132,3 +132,9 @@ p
 {
     color: #000 !important;
 }
+
+.mod-showcase p
+{
+    color: #000 !important;
+    text-align: center;
+}
