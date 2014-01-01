@@ -10,7 +10,7 @@ function ue_customize_register($wp_customize)
         'transport'   => 'refresh',
     ));
     
-    $wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize, 'link_color', array(
+    $wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize, 'primary_color', array(
         'label'        => __( 'Primary Color', 'ue_theme' ),
         'section'    => 'colors',
         'settings'   => 'primary_color',
@@ -21,7 +21,7 @@ function ue_customize_register($wp_customize)
         'transport'   => 'refresh',
     ));
     
-    $wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize, 'link_color', array(
+    $wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize, 'secondary_color', array(
         'label'        => __( 'Secondary Color', 'ue_theme' ),
         'section'    => 'colors',
         'settings'   => 'secondary_color',
@@ -73,7 +73,7 @@ function ue_primary_color()
              
              .navbar-brand
              {
-                 background-image: url(<?php echo get_theme_mod('logo'); ?>);
+                 background-image: url(<?php echo get_theme_mod('logo', '../img/logo.png'); ?>);
              }
          </style>
     <?php
