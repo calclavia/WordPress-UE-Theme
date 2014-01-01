@@ -74,7 +74,7 @@ function ue_primary_color()
                  background-color: <?php echo get_theme_mod('primary_color'); ?>;
              }
              
-             .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus
+             .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
              {
                  color: <?php echo get_theme_mod('secondary_color'); ?>;
                  background-color: <?php echo get_theme_mod('primary_color'); ?>;
