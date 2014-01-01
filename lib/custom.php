@@ -30,7 +30,6 @@ function ue_customize_register($wp_customize)
     $wp_customize->add_setting('logo' , array(
         'default' => get_template_directory_uri() . '../img/logo.png',
         'transport'   => 'refresh',
-        'type'       => 'option'
     ));
     
     $wp_customize->add_control(
@@ -79,12 +78,14 @@ function ue_primary_color()
              {
                  color: <?php echo get_theme_mod('secondary_color'); ?>;
                  background-color: <?php echo get_theme_mod('primary_color'); ?>;
-             }/*
+             }
+             
              .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus
              {
                 color: #fff;
-                background-color: #0892d0;
-             }*/
+                background-color: <?php echo get_theme_mod('primary_color'); ?>;
+             }
+             
              .navbar-default
              {
                  border-color: <?php echo get_theme_mod('secondary_color'); ?>;
