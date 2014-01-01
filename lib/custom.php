@@ -61,7 +61,7 @@ function ue_primary_color()
 {
     ?>
          <style type="text/css">
-             a
+             a:hover, a:focus
              {
                  color: <?php echo get_theme_mod('secondary_color'); ?>; 
              }
@@ -79,8 +79,12 @@ function ue_primary_color()
              {
                  color: <?php echo get_theme_mod('secondary_color'); ?>;
                  background-color: <?php echo get_theme_mod('primary_color'); ?>;
-             }
-             
+             }/*
+             .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus
+             {
+                color: #fff;
+                background-color: #0892d0;
+             }*/
              .navbar-default
              {
                  border-color: <?php echo get_theme_mod('secondary_color'); ?>;
