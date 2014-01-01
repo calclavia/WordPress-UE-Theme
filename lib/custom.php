@@ -88,10 +88,6 @@ function ue_primary_color()
              
              .ue-header
              {
-                 <?php if (!empty(get_header_image())): ?>
-                 background: url(<?php echo get_header_image() ; ?>);
-                 <?php endif; ?>
-                 
                  color: <?php echo get_header_textcolor() ?>;
              }
          </style>
