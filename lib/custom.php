@@ -28,14 +28,15 @@ function ue_customize_register($wp_customize)
     )));
     
     $wp_customize->add_setting('logo' , array(
-        'default' => '../img/logo.png',
+        'default' => get_template_directory_uri() . '../img/logo.png',
         'transport'   => 'refresh',
+        'type'       => 'option'
     ));
     
     $wp_customize->add_control(
        new WP_Customize_Image_Control(
            $wp_customize,
-           'logo',
+           'logo_uploader',
            array(
                'label'          => __( 'Upload a logo', 'ue_theme' ),
                'section'        => 'header_image ',
@@ -48,9 +49,10 @@ function ue_customize_register($wp_customize)
 add_action('customize_register', 'ue_customize_register');
 
 $args = array(
-	'width'         => 980,
-	'height'        => 60,
-	'default-image' => get_template_directory_uri() . '../img/logo.png',
+    'default-text-color'     => '#ffffff',
+	'header-text'            => true,
+	'default-image' => '',
+    'uploads'       => true
 );
 
 add_theme_support( 'custom-header', $args );
@@ -81,7 +83,16 @@ function ue_primary_color()
              
              .navbar-brand
              {
-                 background-image: url(<?php echo get_theme_mod('logo', get_template_directory_uri() . '../img/logo.png'); ?>);
+                 background-image: url(<?php echo get_theme_mod('logo'); ?>);
+             }
+             
+             .ue-header
+             {
+                 <?php if (!empty(get_header_image())): ?>
+                 background: url(<?php echo get_header_image() ; ?>);
+                 <?php endif; ?>
+                 
+                 color: <?php echo get_header_textcolor() ?>;
              }
          </style>
     <?php
