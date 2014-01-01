@@ -39,7 +39,7 @@ function ue_customize_register($wp_customize)
            'logo_uploader',
            array(
                'label'          => __( 'Upload a logo', 'ue_theme' ),
-               'section'        => 'header_image ',
+               'section'        => 'title_tagline',
                'settings'       => 'logo',
            )
        )
@@ -55,12 +55,17 @@ $args = array(
     'uploads'       => true
 );
 
-add_theme_support( 'custom-header', $args );
+add_theme_support('custom-header', $args);
 
 function ue_primary_color()
 {
     ?>
          <style type="text/css">
+             a
+             {
+                 color: <?php echo get_theme_mod('secondary_color'); ?>; 
+             }
+             
              .bluewrap
              {
                 background-color: <?php echo get_theme_mod('primary_color'); ?>;
@@ -88,7 +93,10 @@ function ue_primary_color()
              
              .ue-header
              {
-                 color: <?php echo get_header_textcolor() ?>;
+                 <?php if (header_image()): ?>
+                 background: url(<?php echo header_image(); ?>);
+                 <?php endif; ?>
+                 color: #<?php echo get_header_textcolor() ?>;
              }
          </style>
     <?php
