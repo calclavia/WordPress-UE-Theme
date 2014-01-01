@@ -47,6 +47,14 @@ function ue_customize_register($wp_customize)
 
 add_action('customize_register', 'ue_customize_register');
 
+$args = array(
+	'width'         => 980,
+	'height'        => 60,
+	'default-image' => get_template_directory_uri() . '../img/logo.png',
+);
+
+add_theme_support( 'custom-header', $args );
+
 function ue_primary_color()
 {
     ?>
@@ -73,7 +81,7 @@ function ue_primary_color()
              
              .navbar-brand
              {
-                 background-image: url(<?php echo get_theme_mod('logo', '../img/logo.png'); ?>);
+                 background-image: url(<?php echo get_theme_mod('logo', get_template_directory_uri() . '../img/logo.png'); ?>);
              }
          </style>
     <?php
