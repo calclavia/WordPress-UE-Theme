@@ -1,6 +1,6 @@
 <?php
 /**
- * Custom functions
+ * Customizer functions
  */
 function ue_customize_register($wp_customize)
 {
@@ -11,10 +11,38 @@ function ue_customize_register($wp_customize)
     ));
     
     $wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize, 'link_color', array(
-        'label'        => __( 'Primary Color', 'mytheme' ),
+        'label'        => __( 'Primary Color', 'ue_theme' ),
         'section'    => 'colors',
         'settings'   => 'primary_color',
     )));
+    
+    $wp_customize->add_setting('secondary_color' , array(
+        'default'     => '#004e70',
+        'transport'   => 'refresh',
+    ));
+    
+    $wp_customize->add_control(new WP_Customize_Color_Control( $wp_customize, 'link_color', array(
+        'label'        => __( 'Secondary Color', 'ue_theme' ),
+        'section'    => 'colors',
+        'settings'   => 'secondary_color',
+    )));
+    
+    $wp_customize->add_setting('logo' , array(
+        'default' => '../img/logo.png',
+        'transport'   => 'refresh',
+    ));
+    
+    $wp_customize->add_control(
+       new WP_Customize_Image_Control(
+           $wp_customize,
+           'logo',
+           array(
+               'label'          => __( 'Upload a logo', 'ue_theme' ),
+               'section'        => 'header_image ',
+               'settings'       => 'logo',
+           )
+       )
+   );
 }
 
 add_action('customize_register', 'ue_customize_register');
@@ -30,6 +58,22 @@ function ue_primary_color()
              .navbar-default
              {
                  background-color: <?php echo get_theme_mod('primary_color'); ?>;
+             }
+             
+             .navbar-default .navbar-nav>.active>a
+             {
+                 color: <?php echo get_theme_mod('secondary_color'); ?>;
+                 background-color: <?php echo get_theme_mod('primary_color'); ?>;
+             }
+             
+             .navbar-default
+             {
+                 border-color: <?php echo get_theme_mod('secondary_color'); ?>;
+             }
+             
+             .navbar-brand
+             {
+                 background-image: url(<?php echo get_theme_mod('logo'); ?>);
              }
          </style>
     <?php
@@ -49,7 +93,7 @@ function ue_widgets_init()
 		'after_widget' => '</div>',
 		'before_title' => '',
 		'after_title' => '',
-	) );
+	));
 }
 
 add_action('widgets_init', 'ue_widgets_init' );
