@@ -152,3 +152,14 @@ p
 {
     width: 100%;
 }
+
+/**
+ * A div with a background image that fills its container.
+ */
+.fill-image-div
+{
+    padding: 0px;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
