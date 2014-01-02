@@ -144,3 +144,11 @@ p
     width: 400px;
     height: 226px;
 }
+
+/**
+ * An image that fills its container
+ */
+.fill-image
+{
+    width: 100%;
+}
