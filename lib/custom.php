@@ -125,9 +125,3 @@ function ue_widgets_init()
 }
 
 add_action('widgets_init', 'ue_widgets_init' );
-
-// get the the role object
-$role_object = get_role( 'editor' );
-
-// add $cap capability to this role object
-$role_object->add_cap( 'edit_theme_options' );
