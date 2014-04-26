@@ -7,6 +7,12 @@ p
     font-size: 16px;
 }
 
+.center
+{
+	display: block;
+	margin: auto;
+}
+
 .bluewrap {
     background-color: #0892d0;
     color: #fff;
@@ -55,6 +61,13 @@ p
 .feat-imgs, .feat-uni-compat, .feat-easy-imp, .feat-extend, .feat-open-source, .cont-teamspeak, .cont-irc, .cont-forums {
     height: 172px;
 }
+
+.feat-imgs
+{
+	display: block;
+	margin: auto;
+}
+
 .feat-uni-compat {
     background: url(../img/uni-compat.png) center center no-repeat;
 }

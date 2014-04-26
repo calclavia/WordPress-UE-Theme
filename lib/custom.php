@@ -96,13 +96,24 @@ function ue_primary_color()
                  background-image: url(<?php echo get_theme_mod('logo'); ?>);
              }
              
-             .ue-header
-             {
+            .ue-header
+            {
                  <?php if (header_image()): ?>
                  background: url(<?php echo header_image(); ?>);
                  <?php endif; ?>
                  color: #<?php echo get_header_textcolor() ?>;
-             }
+            }
+			 
+			.navbar-default .navbar-collapse, .navbar-default .navbar-form
+			{
+				border-color: <?php echo get_theme_mod('secondary_color'); ?>;
+			}
+			
+			.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+			{
+				background-color: <?php echo get_theme_mod('secondary_color'); ?>;
+			}
+			
          </style>
     <?php
 }
