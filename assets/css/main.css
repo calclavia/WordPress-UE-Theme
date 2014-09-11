@@ -2843,8 +2843,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
     line-height: 20px;
     text-indent: -9999px;
     background: url(../img/logo.png) no-repeat center;
-    background-size: auto 53px;
-    width: 500px;
+	background-size: contain;
 }
 .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none;
